@@ -1,0 +1,23 @@
+#banner
+{
+    height: 80px;
+    background-color: bisque;
+}
+
+nav
+{
+    height: 30px;
+    background-color: cadetblue;
+}
+
+main
+{
+    height: 600px;
+    background-color: darkgrey;
+}
+
+footer
+{
+    height: 200px;
+    background-color: gainsboro;
+}
