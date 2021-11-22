@@ -10,19 +10,28 @@ a
     font-family: 'Open Sans', sans-serif;
 }
 
-.main-container {
+.main-container
+{
     width: 88%;
-    /* margin: 2.75em auto; */
 }
 
 nav
 {
-    /* height: 30px; */
     background-color: #343a40;
+}
+
+.navbar
+{
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #banner
 {
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
     min-height: 80px;
     background-color: bisque;
 }
@@ -35,6 +44,9 @@ main
 
 footer
 {
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
     min-height: 80px;
     background-color: gainsboro;
 }
