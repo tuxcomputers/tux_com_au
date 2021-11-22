@@ -1,13 +1,18 @@
-#banner
-{
-    height: 80px;
-    background-color: bisque;
+.main-container {
+    width: 88%;
+    /* margin: 2.75em auto; */
 }
 
 nav
 {
     /* height: 30px; */
     background-color: #343a40;
+}
+
+#banner
+{
+    height: 80px;
+    background-color: bisque;
 }
 
 main

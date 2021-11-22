@@ -9,6 +9,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <!-- <link rel="stylesheet" type="text/css" href="styles/styles.css"> -->
 
     <title>Showcase of my work</title>
@@ -39,7 +40,19 @@
         This is the main section
     </main>
     <footer>
-        This is the footer
+        <div class="container-fluid main-container">
+            <div class="row flex-fill">
+                <div class="col-md-4">
+                    This website and the development history can be viewed in the <a href="https://github.com/tuxcomputers/tux_com_au" target="_blank">Github repository</a>
+                </div>
+                <div class="col-md-4">
+                    I develop, host and maintain the website for <a href="https://bloodbikesaustralia.org.au/" target="_blank">Bloodbikes Australia</a>
+                </div>
+                <div class="col-md-4">
+                    This other bit
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
