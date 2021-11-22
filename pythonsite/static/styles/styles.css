@@ -17,12 +17,12 @@ nav
 
 main
 {
-    height: 600px;
+    min-height: 200px;
     background-color: darkgrey;
 }
 
 footer
 {
-    height: 200px;
+    min-height: 80px;
     background-color: gainsboro;
 }
