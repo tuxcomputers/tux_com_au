@@ -7,7 +7,7 @@ def create_app():
     napp.debug=True
 
     # Main views - public has access to
-    from .tux_views_main import tux_main
-    napp.register_blueprint(tux_main)
+    from .aar_views_main import aar_main
+    napp.register_blueprint(aar_main)
 
     return napp
