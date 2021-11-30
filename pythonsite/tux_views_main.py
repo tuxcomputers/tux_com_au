@@ -7,5 +7,5 @@ tux_main = Blueprint('main',__name__)
 @tux_main.route('/')
 @tux_main.route('/index.html')
 def index():
-    return render_template('tux_index.html')
+    return render_template('hac_index.html')
 
