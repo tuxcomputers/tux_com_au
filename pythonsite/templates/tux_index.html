@@ -1,71 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
-    <link href='https://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='styles/styles.css')}}">
-    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
-    <!-- <link rel="stylesheet" type="text/css" href="styles/styles.css"> -->
-
-    <title>Showcase of my work</title>
-
-</head>
-<body>
-    <header>
-        <div class="banner">
-            <img src="static/tux-logo.svg" alt="The Linux Tux penguin logo" height="80px" style="float: left;">
-            <h3>This is the banner</h3>
-        </div>
-        <nav class="navbar flexcolumn">
-            <ul class="nav">
-                <li class="nav-item btn-dark">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item btn-dark">
-                    <a class="nav-link" href="#">Professional</a>
-                </li>
-                <li class="nav-item btn-dark">
-                    <a class="nav-link" href="#">Personal</a>
-                </li>
-            </ul>
-            <!-- This is the nav bar -->
-        </nav>
-
-    </header>
-    <main class="main">
-        <div id="main-div" class="container-fluid space-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie fermentum diam, nec commodo justo pellentesque sit amet. Aliquam odio leo, molestie ut lobortis id, mollis ut diam. Aliquam tempor dolor at purus pharetra, nec vulputate magna sagittis. In quis feugiat velit. Nunc eu erat nisi. Curabitur sollicitudin convallis vulputate. Vivamus hendrerit lacus eu turpis pharetra, elementum elementum nisi placerat. Mauris vitae metus fringilla, scelerisque elit ut, sollicitudin ligula. Suspendisse cursus velit vel semper luctus. Mauris sed aliquet diam.</p>
-            <p>Donec fringilla, nibh eget pulvinar sagittis, felis ex auctor dui, et ultricies enim libero nec nibh. Nunc interdum vulputate orci, sit amet condimentum nulla porta vitae. Vestibulum interdum porta felis. Donec eros nibh, pulvinar id facilisis a, scelerisque in tellus. Donec quis risus quis lorem dapibus condimentum a eu sem. Morbi venenatis in risus eu dapibus. Ut leo arcu, faucibus vel ipsum vitae, rhoncus mattis dolor.</p>
-            <p>Nulla et ipsum eros. Phasellus vel facilisis risus, nec luctus libero. Nulla dignissim nibh eu hendrerit euismod. Aliquam eget dolor sed nunc accumsan suscipit. In blandit sed elit ac tristique. Sed in finibus metus. Etiam sit amet mi non erat facilisis elementum. Duis nisi arcu, maximus at leo sed, elementum aliquam purus. Nam tempus nec justo vitae eleifend. Cras accumsan, odio quis imperdiet blandit, ipsum massa ultrices risus, non sagittis libero ante a nulla. Nam turpis ligula, volutpat vel molestie dapibus, placerat a leo. Sed molestie lectus at elementum viverra.</p>
-            <p>Sed efficitur orci mi, eu scelerisque purus sagittis ut. Phasellus mollis vestibulum leo. Ut vulputate ipsum a nisi mollis finibus. Proin tincidunt erat id nulla molestie, ac consectetur ex semper. In non egestas justo, in tincidunt neque. Pellentesque vehicula sollicitudin orci, vel pretium ligula tincidunt at. Vestibulum condimentum nisl felis, non gravida dolor feugiat nec. Donec elementum ipsum dolor. Nunc eget lacus tempus, aliquet enim ac, hendrerit purus. Nulla facilisi. Fusce finibus sit amet dui eu faucibus.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet posuere iaculis. Nullam gravida dolor vitae turpis accumsan convallis. Nam porttitor nulla est, sed eleifend purus congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec suscipit libero, nec volutpat risus. Ut pretium mi in nisl tempor, nec laoreet mi tempus. Curabitur ut mauris vel elit placerat pretium. Proin leo massa, molestie et ultrices dictum, vulputate sed diam. Sed non tortor eleifend, pellentesque lectus eu, pellentesque nisi. Nulla tincidunt est id venenatis varius. Ut faucibus sollicitudin venenatis.</p>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container-fluid space-container">
-            <div class="row flex-fill">
-                <div class="col-md">
-                    <a href="https://github.com/tuxcomputers/tux_com_au" target="_blank"><svg height="80" width="80" aria-hidden="true" viewBox="0 0 20 20" version="1.1" data-view-component="true">
-                        <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
-                    </svg></a><br>
-                    <p>This website and the development history can be viewed in the <a href="https://github.com/tuxcomputers/tux_com_au" target="_blank">Github repository</a></p>
-                </div>
-                <div class="col-md">
-                    <a href="https://bloodbikesaustralia.org.au/" alt="Bloodbikes Australia logo" target="_blank"><img src="https://bloodbikesaustralia.org.au/static/images/banner.png"></a><br>
-                <p>I develop, host and maintain the website of <a href="https://bloodbikesaustralia.org.au/" target="_blank">Bloodbikes Australia</a> for free</p>
-                </div>
-                <!-- <div class="col-md-4">
-                    This other bit
-                </div> -->
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
+{% extends "tux_wrap.html" %} {% block content %}
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie fermentum diam, nec commodo justo pellentesque sit amet. Aliquam odio leo, molestie ut lobortis id, mollis ut diam. Aliquam tempor dolor at purus pharetra, nec vulputate magna sagittis. In quis feugiat velit. Nunc eu erat nisi. Curabitur sollicitudin convallis vulputate. Vivamus hendrerit lacus eu turpis pharetra, elementum elementum nisi placerat. Mauris vitae metus fringilla, scelerisque elit ut, sollicitudin ligula. Suspendisse cursus velit vel semper luctus. Mauris sed aliquet diam.</p> 
+<p>Donec fringilla, nibh eget pulvinar sagittis, felis ex auctor dui, et ultricies enim libero nec nibh. Nunc interdum vulputate orci, sit amet condimentum nulla porta vitae. Vestibulum interdum porta felis. Donec eros nibh, pulvinar id facilisis a, scelerisque in tellus. Donec quis risus quis lorem dapibus condimentum a eu sem. Morbi venenatis in risus eu dapibus. Ut leo arcu, faucibus vel ipsum vitae, rhoncus mattis dolor.</p> 
+<p>Nulla et ipsum eros. Phasellus vel facilisis risus, nec luctus libero. Nulla dignissim nibh eu hendrerit euismod. Aliquam eget dolor sed nunc accumsan suscipit. In blandit sed elit ac tristique. Sed in finibus metus. Etiam sit amet mi non erat facilisis elementum. Duis nisi arcu, maximus at leo sed, elementum aliquam purus. Nam tempus nec justo vitae eleifend. Cras accumsan, odio quis imperdiet blandit, ipsum massa ultrices risus, non sagittis libero ante a nulla. Nam turpis ligula, volutpat vel molestie dapibus, placerat a leo. Sed molestie lectus at elementum viverra.</p> 
+<p>Sed efficitur orci mi, eu scelerisque purus sagittis ut. Phasellus mollis vestibulum leo. Ut vulputate ipsum a nisi mollis finibus. Proin tincidunt erat id nulla molestie, ac consectetur ex semper. In non egestas justo, in tincidunt neque. Pellentesque vehicula sollicitudin orci, vel pretium ligula tincidunt at. Vestibulum condimentum nisl felis, non gravida dolor feugiat nec. Donec elementum ipsum dolor. Nunc eget lacus tempus, aliquet enim ac, hendrerit purus. Nulla facilisi. Fusce finibus sit amet dui eu faucibus.</p> 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer aliquet posuere iaculis. Nullam gravida dolor vitae turpis accumsan convallis. Nam porttitor nulla est, sed eleifend purus congue eu. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec suscipit libero, nec volutpat risus. Ut pretium mi in nisl tempor, nec laoreet mi tempus. Curabitur ut mauris vel elit placerat pretium. Proin leo massa, molestie et ultrices dictum, vulputate sed diam. Sed non tortor eleifend, pellentesque lectus eu, pellentesque nisi. Nulla tincidunt est id venenatis varius. Ut faucibus sollicitudin venenatis.</p> 
+{% endblock %}
