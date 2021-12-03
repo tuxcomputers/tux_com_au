@@ -15,11 +15,6 @@ a
     width: 88%;
 }
 
-#main-div
-{
-    width: 95%;
-}
-
 nav
 {
     background-color: #343a40;
@@ -37,8 +32,6 @@ nav
     width: 88%;
     margin-right: auto;
     margin-left: auto;
-    min-height: 80px;
-    background-color: bisque;
 }
 
 .main
@@ -59,4 +52,34 @@ nav
     padding-top: 15px;
     /* margin-top: -16px; */
     background-color: gainsboro;
+}
+
+#profile-pic
+{
+    height: 180px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#main-div
+{
+    width: 95%;
+    min-height: 500px;
+}
+
+#banner-image
+{
+    position: absolute;
+    background-size: cover;
+    background-position: top;
+    width: 88%;
+    min-height: 200px;
+    opacity: 0.1;
+    background-image: url("../images/banner.jpg");
+}
+
+#info
+{
+    padding-top: 15px;
 }
