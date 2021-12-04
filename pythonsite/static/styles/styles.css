@@ -10,6 +10,11 @@ a
     font-family: 'Open Sans', sans-serif;
 }
 
+a
+{
+    color: rgb(1, 18, 131);
+}
+
 .space-container
 {
     width: 88%;
@@ -17,17 +22,32 @@ a
 
 nav
 {
-    background-color: #343a40;
+    background-color: #a3c9ee;
+}
+
+.nav-item
+{
+    border-radius: 5px;
+    margin: 5px;
+    background-color: rgb(151, 184, 245);
+}
+
+.nav-item:hover
+{
+    transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+}
+
+.nav-link:hover
+{
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(78, 78, 250);
 }
 
 .navbar
-{
-    width: 88%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.banner
 {
     width: 88%;
     margin-right: auto;
@@ -40,7 +60,7 @@ nav
     margin-right: auto;
     margin-left: auto;
     min-height: 200px;
-    background-color: darkgrey;
+    background-color: #e5e7eb;
 }
 
 .footer
@@ -54,6 +74,12 @@ nav
     background-color: gainsboro;
 }
 
+#banner
+{
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+}
 #profile-pic
 {
     height: 180px;
