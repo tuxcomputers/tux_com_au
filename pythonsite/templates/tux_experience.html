@@ -1,3 +1,37 @@
 {% extends "tux_wrap.html" %} {% block content %}
-<p>Experience</p> 
+<div id="carouselShow" class="flex carousel container-fluid main-container card" data-ride="carousel" data-interval="0">
+    <div class="row">
+        <div id="prev-btn" class="col-md-1">
+            <a class="carousel-control-prev" href="#carouselShow" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+        </div>
+        <div class="col-md-10">
+            <div class="row">
+                <div class="carousel-inner">
+                    <div class="active carousel-item">
+                        Here is where I will put all my general experience
+                    </div>
+                    <div class="carousel-item">
+                        Here is where I will put the Cubic Job
+                    </div>
+                    <div class="carousel-item">
+                        Here is where I will put the Qld Police stuff
+                    </div>
+                    <div class="carousel-item">
+                        Here is where I will put the Longreach stuff
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="next-btn" class="col-md-1">
+            <a class="carousel-control-next" href="#carouselShow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
 {% endblock %}
